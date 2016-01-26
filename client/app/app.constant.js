@@ -3,7 +3,7 @@
 
 angular.module('lotusvoiceApp.constants', [])
 
-.constant('appConfig', {userRoles:['guest','user','admin']})
+.constant('appConfig', {userRoles:['guest','user','core','admin']})
 
 ;
 })(angular);

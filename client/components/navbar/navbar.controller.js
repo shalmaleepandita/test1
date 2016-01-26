@@ -5,6 +5,15 @@ class NavbarController {
   menu = [{
     'title': 'Home',
     'state': 'main'
+  },{
+    'title': 'Watch',
+    'state': 'watch'
+  },{
+    'title': 'Download',
+    'state': 'download'
+  },{
+    'title': 'Contact',
+    'state': 'contact'
   }];
 
   isCollapsed = true;

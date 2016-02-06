@@ -6,7 +6,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://admin:kiLyeSy8wlVe@localhost/lotusvoice-dev'
+    uri: 'mongodb://root:kiLyeSy8wlVe@localhost/lotusvoice-dev'
   },
 
   // Seed database on startup

@@ -15,6 +15,7 @@
     "express": "^4.13.3",
     "express-jwt": "^3.0.0",
     "express-session": "^1.11.3",
+    "googleapis": "^2.1.7",
     "jsonwebtoken": "^5.0.0",
     "kerberos": "0.0.18",
     "lodash": "^3.10.1",

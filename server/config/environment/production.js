@@ -19,6 +19,6 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://root:kiLyeSy8wlVe@localhost/lotusvoice'
+          'mongodb://root:b8uCsOzpGjh8@localhost/lotusvoice'
   }
 };

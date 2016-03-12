@@ -5,9 +5,9 @@
     <div class="col-lg-12">
       <h1 class="page-header">Downloads</h1>
       <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="file in download.files">
-        <a ui-sref="download({fileId: file.id})">{{file.title}}</a>
-        <!--<img src="{{file.iconLink}}" style="width:18px;height:12px;">
-        <a href="{{file.alternateLink}}" tooltip="{{file.id}}"> {{file.title}}</a>-->
+        <a ui-sref="download({fileId: file.id})" ng-if="file.mimeType == 'application/vnd.google-apps.folder'">{{file.title}}</a>
+        <!--<img src="{{file.iconLink}}" style="width:18px;height:12px;">-->
+        <a href="{{file.downloadUrl}}" target="_self" tooltip="{{file.downloadUrl}}" download="{{file.title}}" ng-if="file.mimeType != 'application/vnd.google-apps.folder'">{{file.title}}</a>
       </ul>
     </div>
   </div>
